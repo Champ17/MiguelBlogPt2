@@ -13,7 +13,7 @@
      $query = $_SESSION["connection"]->query("INSERT INTO users SET "
              . "email = '$email',"
              . "username = '$username',"
-             . "password = '$password',"
+             . "password = '$hashedPassword',"
              . "salt = '$salt'");
      
      if($query){
