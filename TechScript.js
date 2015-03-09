@@ -1,5 +1,5 @@
 $("document").ready(function() {
-    $("body").css("background-image", "url(http://2011.joelglovier.com/img/wallpaper/power-3.jpg)");
+    $("body").css("background-image", "url(http://szablonstrony.com.pl/wp-content/uploads/2014/07/html+css.jpg)");
     $("body").css("background-size", "cover");
 
     $("h1").css("color", "white");
